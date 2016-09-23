@@ -1,0 +1,2 @@
+# node_modulesディレクトリは対象外にする
+node_modules
