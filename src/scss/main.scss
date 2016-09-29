@@ -1,25 +1,45 @@
 @charset 'utf-8';
 
+// ===========================
+// Base
+// ===========================
 @import "./base/variables";
 @import "./base/reset";
 
-// ヘッダー
-@import "./components/common/header";
 
-// メニュー
-@import "./components/common/menu";
-
-// トップページ : サムネイル付きコンテンツ（横）
-@import "./components/entryPanel";
-
-// ボタン
-@import "./components/parts/buttons";
-
+// ===========================
+// Components
+// ===========================
+// Parts
+//----------------------------
 // レイアウト
 @import "./components/parts/layouts";
+// ボタン
+@import "./components/parts/buttons";
+// ラベル、見出し
+@import "./components/parts/labels";
 
-// カルーセル
-@import "./components/imageSlide";
-
+// Common
+//----------------------------
+// ヘッダー
+@import "./components/common/header";
+// メニュー
+@import "./components/common/menu";
 // セクション間隔
 @import "./components/common/section";
+
+
+// Others
+//----------------------------
+// トップページ : サムネイル付きコンテンツ（横）
+@import "./components/entryPanel";
+// カルーセル
+@import "./components/imageSlide";
+// 写真背景パネル
+@import "./components/overlayPanel";
+
+
+// ===========================
+// Pages
+// ===========================
+@import "./pages/index";
