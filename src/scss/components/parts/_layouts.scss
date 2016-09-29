@@ -12,6 +12,8 @@
     flex-wrap: wrap;
     margin: 0 auto;
 }
+
+// コンポーネントを２つに並べる
 .l-halfColumn {
     flex: 1 0 0px;
     max-width: ($base-content-width - $column-space) / 2;
@@ -20,6 +22,18 @@
         margin-right: 0;
     }
 }
+
+// コンポーネントを４つに並べる
+.l-quaterColumn {
+    flex: 1 0 0px;
+    max-width: ($base-content-width - $column-space * 3) / 4;
+    margin-right: $column-space;
+    &:nth-child(4n) {
+        margin-right: 0;
+    }
+}
+
+
 .l-halfTile {
     display: flex;
     flex: 1 1 50%;
