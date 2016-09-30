@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+// fonts
+@mixin menu-font() {
+    font-family: $font-sub;
+    font-weight: 300;
+}
+
+@mixin title-font() {
+    font-family: $font-sub;
+    font-weight: 400;
+}
