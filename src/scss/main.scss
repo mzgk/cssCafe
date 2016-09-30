@@ -6,6 +6,8 @@
 @import "./base/variables";
 @import "./base/reset";
 
+// FontAwsome
+@import "./base/lib/fa/font-awesome";
 
 // ===========================
 // Components
@@ -29,6 +31,8 @@
 @import "./components/common/section";
 // フッター
 @import "./components/common/footer";
+// SNS
+@import "./components/common/sns";
 
 // Others
 //----------------------------
